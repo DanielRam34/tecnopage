@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule], 
+  imports: [CommonModule], // Importa CommonModule para usar directivas como *ngIf, *ngFor
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'] // Usamos styleUrls para un array de estilos
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   welcome = 'Hola!';
