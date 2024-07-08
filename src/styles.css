@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+.logo {
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    height: auto;  /* Mantén la proporción de aspecto */
+    display: block; /* Para evitar problemas de espaciado */
+    margin: 20px auto; /* Centra el logo horizontalmente */
+  }
