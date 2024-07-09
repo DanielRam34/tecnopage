@@ -1,5 +1,5 @@
 {
-  "name": "tecno-page",
+  "name": "concise-upgrade-427002-p4",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:tecnoPage": "node dist/tecno-page/server/server.mjs"
+    "serve:ssr:concise-upgrade-427002-p4": "node dist/tecno-page/server/server.mjs"
   },
   "private": true,
   "dependencies": {
@@ -15,6 +15,7 @@
     "@angular/common": "^18.0.0",
     "@angular/compiler": "^18.0.0",
     "@angular/core": "^18.0.0",
+    "@angular/fire": "^18.0.1",
     "@angular/forms": "^18.0.0",
     "@angular/platform-browser": "^18.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0",
@@ -24,6 +25,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "express": "^4.18.2",
+    "firebase": "^10.12.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"

@@ -1,14 +1,11 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule], // Importa CommonModule para usar directivas como *ngIf, *ngFor
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  standalone: true // Asegúrate de agregar esta línea
 })
 export class AppComponent {
-  
+  // Contenido del componente
 }

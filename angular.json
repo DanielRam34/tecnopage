@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tecnoPage": {
+    "concise-upgrade-427002-p4": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -42,6 +42,12 @@
           },
           "configurations": {
             "production": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
               "budgets": [
                 {
                   "type": "initial",
@@ -68,10 +74,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "tecnoPage:build:production"
+              "buildTarget": "concise-upgrade-427002-p4:build:production"
             },
             "development": {
-              "buildTarget": "tecnoPage:build:development"
+              "buildTarget": "concise-upgrade-427002-p4:build:development"
             }
           },
           "defaultConfiguration": "development"
