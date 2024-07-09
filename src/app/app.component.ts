@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -9,10 +10,5 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  welcome = 'Hola!';
-  tasks = [
-    'Instalar el Angular CLI',
-    'Crear proyecto',
-    'Crear componentes'
-  ];
+  
 }
